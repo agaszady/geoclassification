@@ -1,0 +1,219 @@
+﻿SIMC_id;nazwa;aktualny_rodzaj;Prawdopodobieństwo wieś;Prawdopodobieństwo osada;Prawdopodobieństwo osada leśna;Prawdopodobieństwo kolonia;Proponowany rodzaj (indeks);Proponowany rodzaj
+116547;Chorab;przysiółek wsi;0.123;0.873;0.001;0.003;1;osada
+116560;Szczepka;część wsi;0.992;0.004;0.0;0.003;0;wieś
+148375;Kalina;kolonia wsi;0.99;0.009;0.0;0.001;0;wieś
+148620;Siedlisko;kolonia wsi;0.115;0.841;0.035;0.01;1;osada
+148702;Prętki;część kolonii;0.979;0.02;0.0;0.0;0;wieś
+148731;Szyleny-Kolonia;część wsi;0.98;0.014;0.0;0.006;0;wieś
+148866;Prątnik;kolonia wsi;0.996;0.002;0.0;0.002;0;wieś
+149506;Batorowo;część wsi;0.195;0.801;0.004;0.0;1;osada
+149647;Adamowo-Osiedle;część wsi;0.985;0.006;0.002;0.007;0;wieś
+150455;Klekotki;część wsi;0.742;0.148;0.003;0.107;0;wieś
+151450;Jarzeński Młyn;część wsi;0.79;0.206;0.002;0.002;0;wieś
+152862;Gardyny-Leśniczówka;część wsi;0.74;0.194;0.005;0.062;0;wieś
+152974;Kobyliny;część wsi;0.947;0.003;0.0;0.049;0;wieś
+152997;Olszówka;część wsi;0.995;0.004;0.0;0.001;0;wieś
+153005;Sucha;część wsi;0.943;0.053;0.002;0.003;0;wieś
+154424;Zakrzewko;część wsi;0.094;0.473;0.034;0.398;1;osada
+154810;Wójtowizna;część wsi;0.232;0.763;0.003;0.002;1;osada
+155300;Bliżewo;przysiółek wsi;0.917;0.082;0.0;0.001;0;wieś
+155464;Płoskinia-Kolonia;część wsi;0.991;0.001;0.001;0.007;0;wieś
+159054;Kikoły;przysiółek wsi;0.992;0.002;0.0;0.005;0;wieś
+469079;Rzymek;przysiółek wsi;0.995;0.002;0.0;0.003;0;wieś
+469122;Dobrzykowo;przysiółek wsi;0.141;0.719;0.003;0.137;1;osada
+469151;Kudwiny;przysiółek osady;0.903;0.007;0.033;0.057;0;wieś
+469174;Gęsiniec Wielki;przysiółek wsi;0.986;0.011;0.0;0.003;0;wieś
+469205;Cacki;przysiółek osady;0.98;0.002;0.0;0.017;0;wieś
+469381;Nowy Dwór Momajński;przysiółek wsi;0.996;0.002;0.0;0.002;0;wieś
+469398;Piskorze;przysiółek wsi;0.988;0.009;0.0;0.003;0;wieś
+469412;Niedziałki;przysiółek wsi;0.001;0.999;0.0;0.0;1;osada
+469470;Zalewska Góra;część wsi;0.991;0.007;0.001;0.002;0;wieś
+469501;Gradowo;przysiółek osady;0.998;0.0;0.0;0.002;0;wieś
+469613;Rowy;przysiółek wsi;0.995;0.004;0.0;0.001;0;wieś
+469636;Sławosze;przysiółek osady;0.002;0.972;0.001;0.025;1;osada
+469659;Glinka;część wsi;0.994;0.002;0.001;0.002;0;wieś
+469688;Garbnik;przysiółek wsi;0.998;0.001;0.0;0.0;0;wieś
+469702;Pieszewo;przysiółek wsi;0.982;0.016;0.0;0.002;0;wieś
+470639;Klekotki;część wsi;0.982;0.01;0.001;0.007;0;wieś
+471047;Gruda;przysiółek wsi;0.943;0.024;0.014;0.019;0;wieś
+471136;Szylina Mała;część wsi;0.775;0.215;0.001;0.009;0;wieś
+471248;Karolewka;część kolonii;0.983;0.016;0.0;0.0;0;wieś
+471567;Pierwój;część wsi;0.33;0.62;0.008;0.042;1;osada
+472242;Winiec;część wsi;0.997;0.002;0.0;0.0;0;wieś
+473247;Zimna Woda;część wsi;0.992;0.002;0.0;0.005;0;wieś
+473253;Babięty;przysiółek wsi;0.993;0.001;0.003;0.003;0;wieś
+473709;Zaskwierki;kolonia wsi;0.985;0.014;0.0;0.001;0;wieś
+473827;Zdrojek;kolonia wsi;0.99;0.008;0.0;0.002;0;wieś
+474407;Gniewkowo;część wsi;0.986;0.01;0.0;0.004;0;wieś
+474620;Reszkowo;kolonia wsi;0.994;0.006;0.0;0.0;0;wieś
+474650;Grądzik;kolonia wsi;0.994;0.003;0.0;0.002;0;wieś
+475068;Kozianka;przysiółek osady;0.987;0.004;0.0;0.009;0;wieś
+475252;Lowizowo;część wsi;0.979;0.012;0.001;0.009;0;wieś
+475341;Praszki;część wsi;0.063;0.827;0.054;0.056;1;osada
+475370;Przejazd;część wsi;0.807;0.173;0.004;0.016;0;wieś
+475588;Rodzone;przysiółek osady;0.011;0.98;0.008;0.001;1;osada
+475708;Jażdżówki;część wsi;0.991;0.009;0.0;0.0;0;wieś
+475832;Jabłonowo-Dyby;część wsi;0.992;0.004;0.001;0.003;0;wieś
+475849;Jabłonowo-Maćkowięta;część wsi;0.496;0.5;0.001;0.003;1;osada
+476151;Połcie Młode;część wsi;0.87;0.09;0.004;0.036;0;wieś
+477386;Gromki;przysiółek osady;0.962;0.031;0.0;0.007;0;wieś
+477430;Góry;przysiółek wsi;0.042;0.933;0.0;0.025;1;osada
+477446;Rybniki;przysiółek wsi;0.527;0.458;0.002;0.013;0;wieś
+477452;Strzyże;przysiółek wsi;0.369;0.517;0.077;0.037;1;osada
+477475;Porębek;przysiółek wsi;0.997;0.002;0.0;0.0;0;wieś
+477618;Cegielnia;przysiółek osady;0.994;0.006;0.0;0.0;0;wieś
+477630;Borki;przysiółek osady;0.675;0.179;0.005;0.141;0;wieś
+477647;Katkajmy;przysiółek osady;0.992;0.004;0.0;0.004;0;wieś
+477653;Olchowo;przysiółek osady;0.868;0.108;0.001;0.022;0;wieś
+477707;Wymiarki;przysiółek wsi;0.998;0.001;0.0;0.001;0;wieś
+477825;Wymiary;przysiółek wsi;0.041;0.942;0.0;0.017;1;osada
+477877;Brzeźnica;część wsi;0.891;0.035;0.002;0.073;0;wieś
+477937;Owczarnia;przysiółek wsi;0.949;0.049;0.001;0.001;0;wieś
+478032;Stadniki;część wsi;0.97;0.002;0.0;0.028;0;wieś
+478210;Maków;osada wsi;0.979;0.011;0.0;0.009;0;wieś
+478670;Kałmy;przysiółek wsi;0.532;0.076;0.002;0.389;0;wieś
+478718;Podgórzyn;przysiółek wsi;0.992;0.005;0.0;0.003;0;wieś
+478747;Giełpsz;przysiółek wsi;0.832;0.166;0.001;0.001;0;wieś
+478760;Kowalewo Małe;przysiółek wsi;0.913;0.086;0.0;0.0;0;wieś
+478782;Polany;przysiółek wsi;0.996;0.003;0.0;0.001;0;wieś
+478813;Dzierżążnik;część wsi;0.253;0.594;0.004;0.149;1;osada
+478836;Łękajny;przysiółek wsi;0.983;0.014;0.001;0.002;0;wieś
+478865;Nunkajmy;przysiółek wsi;0.987;0.008;0.001;0.004;0;wieś
+478983;Sajna Mała;przysiółek wsi;0.994;0.006;0.0;0.0;0;wieś
+478990;Kaskajmy Małe;przysiółek wsi;0.001;0.999;0.0;0.0;1;osada
+479126;Wygoda;przysiółek wsi;0.972;0.026;0.0;0.002;0;wieś
+479184;Wetyn;przysiółek wsi;0.036;0.942;0.003;0.018;1;osada
+479209;Wiklewko;przysiółek wsi;0.984;0.011;0.0;0.005;0;wieś
+480690;Świękitki;część wsi;0.059;0.869;0.019;0.054;1;osada
+481117;Spórka;część wsi;0.628;0.242;0.074;0.056;0;wieś
+481152;Bagnity;przysiółek wsi;0.995;0.005;0.0;0.0;0;wieś
+481287;Jarnołtówko;część wsi;0.757;0.096;0.002;0.145;0;wieś
+481689;Sąglewo;przysiółek wsi;0.995;0.004;0.0;0.001;0;wieś
+482967;Joachimowo;część wsi;0.001;0.005;0.994;0.0;2;osada leśna
+482980;Witomin;część wsi;0.964;0.026;0.001;0.01;0;wieś
+483062;Stamka;część wsi;0.909;0.089;0.0;0.002;0;wieś
+483085;Dobroszewo;część wsi;0.993;0.003;0.0;0.004;0;wieś
+483091;Głazowo;część wsi;0.792;0.202;0.004;0.001;0;wieś
+483116;Palestyna;część wsi;0.106;0.853;0.002;0.039;1;osada
+483139;Gwiazdowo;część wsi;0.997;0.001;0.0;0.002;0;wieś
+483180;Kosewo Górne;część wsi;0.987;0.01;0.0;0.002;0;wieś
+483197;Kucze;część wsi;0.01;0.989;0.0;0.0;1;osada
+483211;Krzesowo;część wsi;0.985;0.003;0.0;0.012;0;wieś
+483228;Krzywiec;część wsi;0.997;0.002;0.0;0.0;0;wieś
+483263;Tymnikowo;część wsi;0.997;0.001;0.0;0.002;0;wieś
+483286;Pełkowo;część wsi;0.714;0.072;0.005;0.21;0;wieś
+483292;Piotrówka;część wsi;0.999;0.001;0.0;0.0;0;wieś
+483300;Wola Muntowska;część wsi;0.99;0.009;0.0;0.001;0;wieś
+483524;Wymysły;część wsi;0.873;0.12;0.006;0.001;0;wieś
+483553;Wólka Baranowska;przysiółek wsi;0.222;0.324;0.002;0.452;3;kolonia
+483576;Biestrzykowo;część wsi;0.624;0.29;0.002;0.085;0;wieś
+484570;Kąpity;część wsi;0.332;0.498;0.058;0.112;1;osada
+484860;Spoguny;część wsi;0.999;0.001;0.0;0.0;0;wieś
+485003;Grabinek;część wsi;0.944;0.029;0.004;0.023;0;wieś
+485032;Idzbarski Młyn;część wsi;0.625;0.217;0.013;0.145;0;wieś
+485322;Jankowiec;część wsi;0.003;0.905;0.003;0.089;1;osada
+485380;Samborówko;część wsi;0.938;0.054;0.001;0.008;0;wieś
+485397;Zabłocie;część wsi;0.994;0.004;0.0;0.001;0;wieś
+485440;Jabłonka;część wsi;0.009;0.965;0.0;0.025;1;osada
+485457;Zawady Małe;część wsi;0.456;0.528;0.007;0.009;1;osada
+485463;Żurejny;część wsi;0.954;0.005;0.001;0.04;0;wieś
+485629;Wólka Klonowska;część wsi;0.997;0.002;0.0;0.0;0;wieś
+485954;Nowy Most;część wsi;0.738;0.26;0.0;0.002;0;wieś
+486008;Łętowo;przysiółek wsi;0.31;0.675;0.005;0.011;1;osada
+486089;Bieńki;przysiółek wsi;0.986;0.011;0.0;0.003;0;wieś
+486126;Probark Mały;część wsi;0.998;0.001;0.0;0.0;0;wieś
+486132;Żabieniec;część wsi;0.998;0.002;0.0;0.0;0;wieś
+486184;Zielony Lasek;część wsi;0.004;0.972;0.001;0.023;1;osada
+486209;Jeziorko;część wsi;0.992;0.008;0.0;0.001;0;wieś
+486215;Strzałowo;część wsi;0.078;0.906;0.014;0.002;1;osada
+486221;Świnie Oko;część wsi;0.622;0.373;0.003;0.003;0;wieś
+486250;Uklanka;część wsi;0.728;0.057;0.001;0.215;0;wieś
+486304;Jeleń;część wsi;0.273;0.617;0.002;0.108;1;osada
+486310;Mostek;część wsi;0.456;0.367;0.019;0.159;0;wieś
+486327;Ostrów Pieckowski;część wsi;0.983;0.016;0.0;0.001;0;wieś
+486333;Piersławek;część wsi;0.985;0.012;0.0;0.003;0;wieś
+486362;Rostek;część wsi;0.059;0.939;0.001;0.0;1;osada
+486379;Zakręt;część wsi;0.009;0.989;0.0;0.001;1;osada
+486385;Chostka;przysiółek wsi;0.63;0.361;0.001;0.008;0;wieś
+486400;Ławny Lasek;część wsi;0.987;0.004;0.0;0.009;0;wieś
+486468;Zyzdrojowa Wola;część wsi;0.085;0.187;0.024;0.703;3;kolonia
+486920;Bertyny;przysiółek wsi;0.511;0.407;0.003;0.078;0;wieś
+486936;Mała Bertynówka;przysiółek wsi;0.886;0.004;0.001;0.109;0;wieś
+486965;Staniewo;przysiółek wsi;0.502;0.442;0.021;0.034;0;wieś
+486971;Stąpławki;przysiółek wsi;0.828;0.123;0.018;0.032;0;wieś
+487189;Pudwągi;przysiółek wsi;0.312;0.512;0.159;0.017;1;osada
+487999;Maradzki Chojniak;część wsi;0.969;0.023;0.002;0.007;0;wieś
+488183;Gieląd Mały;część wsi;0.976;0.021;0.002;0.0;0;wieś
+488190;Nowy Gieląd;część wsi;0.996;0.003;0.0;0.001;0;wieś
+488214;Szelągówka;część wsi;0.996;0.003;0.0;0.002;0;wieś
+488266;Zamkowo;część wsi;0.762;0.107;0.083;0.049;0;wieś
+488421;Lipowo;część wsi;0.992;0.007;0.0;0.002;0;wieś
+488444;Kaczory;część wsi;0.984;0.011;0.001;0.004;0;wieś
+488450;Księży Dwór;część wsi;0.286;0.559;0.011;0.144;1;osada
+488473;Lesieniec;część wsi;0.382;0.449;0.018;0.15;1;osada
+488480;Pyszki;część wsi;0.92;0.072;0.001;0.006;0;wieś
+488496;Rybakowo;część wsi;0.995;0.004;0.0;0.001;0;wieś
+488504;Złote Pole;część wsi;0.994;0.004;0.0;0.002;0;wieś
+488533;Podlasie;część wsi;0.998;0.001;0.0;0.0;0;wieś
+488540;Siemkowo;część wsi;0.993;0.003;0.0;0.004;0;wieś
+488556;Silecki Folwark;część wsi;0.994;0.004;0.0;0.002;0;wieś
+488579;Dolny Siniec;część wsi;0.551;0.195;0.002;0.252;0;wieś
+488585;Różanka-Leśniczówka;część wsi;0.99;0.009;0.0;0.001;0;wieś
+488591;Rypławki;część wsi;0.954;0.008;0.001;0.036;0;wieś
+488600;Siniec-Cegielnia;część wsi;0.977;0.02;0.0;0.003;0;wieś
+488616;Sińczyk-Leśniczówka;część wsi;0.009;0.073;0.633;0.285;2;osada leśna
+488651;Młynowo;przysiółek wsi;0.988;0.005;0.0;0.007;0;wieś
+488705;Pieczarki;przysiółek osady;0.936;0.019;0.004;0.042;0;wieś
+488728;Wikrowo;przysiółek osady;0.975;0.025;0.0;0.0;0;wieś
+488740;Wilcza Wólka;część wsi;0.994;0.003;0.0;0.003;0;wieś
+488792;Mazurkowo;część wsi;0.915;0.084;0.0;0.001;0;wieś
+488823;Sówka;część wsi;0.984;0.014;0.001;0.001;0;wieś
+489136;Pużary;część wsi;0.976;0.023;0.0;0.001;0;wieś
+489290;Lipowiec Mały;część wsi;0.994;0.004;0.0;0.003;0;wieś
+489509;Wólka Szczycieńska;część wsi;0.989;0.01;0.0;0.001;0;wieś
+489567;Trelkówko;część wsi;0.969;0.017;0.001;0.012;0;wieś
+489716;Kłobia;przysiółek wsi;0.937;0.014;0.001;0.048;0;wieś
+490079;Spychowski Piec;część wsi;0.988;0.006;0.0;0.006;0;wieś
+490085;Spychówko;część wsi;0.984;0.014;0.001;0.002;0;wieś
+490949;Murawki;część wsi;0.928;0.046;0.0;0.026;0;wieś
+753567;Owczary;część wsi;0.824;0.17;0.004;0.002;0;wieś
+753998;Boćwinka;część wsi;0.174;0.815;0.005;0.006;1;osada
+754957;Kożuchy Małe;część wsi;0.757;0.038;0.001;0.204;0;wieś
+755477;Maryszki;przysiółek wsi;0.851;0.148;0.002;0.0;0;wieś
+755490;Piotrówko;przysiółek wsi;0.81;0.098;0.058;0.034;0;wieś
+755980;Tuniszki;przysiółek osady;0.993;0.005;0.0;0.002;0;wieś
+756152;Judziki;przysiółek wsi;0.994;0.005;0.0;0.001;0;wieś
+756330;Brodowo;przysiółek wsi;0.984;0.014;0.001;0.001;0;wieś
+756436;Lepaki Małe;część wsi;0.985;0.014;0.0;0.001;0;wieś
+756465;Malinówka Mała;część wsi;0.42;0.556;0.001;0.023;1;osada
+757915;Wola Bogaczkowska;przysiółek wsi;0.964;0.035;0.0;0.001;0;wieś
+758263;Strzelce;przysiółek wsi;0.023;0.917;0.0;0.059;1;osada
+760656;Mściszewo;część wsi;0.001;0.998;0.0;0.0;1;osada
+761466;Borki;osada wsi;0.938;0.054;0.0;0.008;0;wieś
+761472;Knieja Łuczańska;osada wsi;0.773;0.072;0.007;0.148;0;wieś
+761489;Jurkówko;osada leśna wsi;0.69;0.174;0.0;0.135;0;wieś
+761495;Wolisko;osada wsi;0.563;0.279;0.008;0.15;0;wieś
+761532;Budziska Leśne;osada wsi;0.952;0.043;0.002;0.003;0;wieś
+761590;Grądy Kruklaneckie;przysiółek wsi;0.016;0.983;0.0;0.0;1;osada
+761615;Majerka;przysiółek wsi;0.988;0.011;0.0;0.0;0;wieś
+761673;Żywki Małe;przysiółek wsi;0.577;0.319;0.028;0.076;0;wieś
+762388;Pszczółki;część wsi;0.997;0.002;0.0;0.001;0;wieś
+762610;Konopki Nowe;część wsi;0.586;0.414;0.001;0.0;0;wieś
+762709;Przykop;część wsi;0.055;0.824;0.001;0.12;1;osada
+763896;Kępa;część wsi;0.063;0.934;0.001;0.001;1;osada
+766848;Bartlewo;przysiółek wsi;0.352;0.61;0.0;0.038;1;osada
+766854;Gąsior;przysiółek wsi;0.721;0.242;0.001;0.036;0;wieś
+766972;Śwignajno Małe;przysiółek wsi;0.989;0.01;0.0;0.001;0;wieś
+766989;Śwignajno Wielkie;przysiółek wsi;0.995;0.004;0.0;0.001;0;wieś
+767204;Majdan;część wsi;0.896;0.05;0.002;0.052;0;wieś
+767606;Grzybowo;przysiółek wsi;0.989;0.011;0.0;0.0;0;wieś
+772375;Franciszkowo;przysiółek wsi;0.99;0.009;0.0;0.0;0;wieś
+772599;Ernstowo;przysiółek wsi;0.887;0.095;0.003;0.015;0;wieś
+843980;Białobłoty;kolonia wsi;0.253;0.711;0.03;0.005;1;osada
+845915;Pod Szafarnię;część wsi;0.537;0.459;0.002;0.001;0;wieś
+990480;Kiewry;przysiółek wsi;0.496;0.487;0.014;0.003;0;wieś
+1045401;Jeleni Róg;przysiółek osady;0.031;0.968;0.0;0.0;1;osada
+1045453;Łękuk Wielki;przysiółek osady;0.287;0.458;0.017;0.238;1;osada
+1056020;Stare Jegławki;część wsi;0.171;0.466;0.011;0.352;1;osada
+1063110;Czerwonka-Stacja;część wsi;0.267;0.723;0.0;0.01;1;osada
+1063126;Henrykowo;osada wsi;0.006;0.971;0.018;0.004;1;osada
