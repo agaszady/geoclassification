@@ -1,4 +1,5 @@
-# ekstraktowanie cech związanych z zabudową (forma)
+# ekstraktowanie cech związanych z zabudową (forma miejscowości)
+# wynik w 28/analiza_zabudowy_warminskie.csv
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import MultiPolygon, MultiPoint
@@ -154,6 +155,6 @@ na = zabudowa_merged_df[zabudowa_merged_df.isnull().any(axis=1)]
 zabudowa_merged_df.fillna(0, inplace=True)
 
 # zapis do csv
-zabudowa_merged_df.to_csv("28/analiza_zabudowy_warminskie.csv",
-                          sep=';', header=True, index=False)
+# zabudowa_merged_df.to_csv("28/analiza_zabudowy_warminskie.csv",
+#                          sep=';', header=True, index=False)
 

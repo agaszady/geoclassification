@@ -1,3 +1,4 @@
+# analiza zbioru danych, wizualizacja, trenowanie modeli
 import pandas as pd
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
@@ -21,6 +22,7 @@ from wizualizacja_cech import wizualizacja
 # pobranie zbioru danych
 dane_warminskie = pd.read_csv('warminskie_dane_do_analizy.csv', sep=';')
 
+''' ---------------------------- ANALIZA ZBIORU DANYCH ---------------------------- '''
 
 # badanie występowania braków danych
 na = dane_warminskie[dane_warminskie.isnull().any(axis=1)]
@@ -77,8 +79,10 @@ mapowanie = \
      'kolonia': 3}
 zbior_samodzielny['rodzaj'] = zbior_samodzielny['rodzaj'].map(mapowanie)
 
-# wizualizacja
+''' ---------------------------- WIZUALIZACJA ---------------------------- '''
 wizualizacja(zbior_samodzielny)
+
+''' ---------------------------- MODELE ---------------------------- '''
 
 # parametry
 standard_scaler = StandardScaler()
@@ -86,7 +90,7 @@ min_max_scaler = MinMaxScaler()
 smote = SMOTE(random_state=42, k_neighbors=3)
 adasyn = ADASYN(random_state=42)
 
-# słowniki-najlepsze wersje klasyfikatorów
+# słowniki — najlepsze wersje klasyfikatorów
 KNN = {'nazwa': 'KNN',
        'model': KNeighborsClassifier(n_neighbors=3),
        'normalizacja': standard_scaler,
@@ -106,10 +110,6 @@ GB = {'nazwa': 'GB',
       'model': GradientBoostingClassifier(random_state=42, n_estimators=200),
       'normalizacja': min_max_scaler,
       'over_samp': smote}
-
-# NALEŻY WYBRAĆ JEDEN Z MODELI
-# modele = KNN, SVM, RF, GB
-wybrany_model = GB
 
 def train_model(zbior_samodzielny, model_dict, rfe=False, over_samp=False,
           znaczenie_cech=False, nazwa_pliku_modelu=False,
@@ -156,7 +156,8 @@ def train_model(zbior_samodzielny, model_dict, rfe=False, over_samp=False,
     # y_proba = model_wytrenowany.predict_proba(x_test)
 
     # zapis modelu do pliku
-    # joblib.dump(model_wytrenowany, nazwa_pliku_modelu)
+    if nazwa_pliku_modelu:
+        joblib.dump(model_wytrenowany, nazwa_pliku_modelu)
     reversefactor = dict(zip(range(5),mapowanie.keys()))
     y_test = np.vectorize(reversefactor.get)(y_test)
     y_pred = np.vectorize(reversefactor.get)(y_pred)
@@ -184,7 +185,8 @@ def train_model(zbior_samodzielny, model_dict, rfe=False, over_samp=False,
                            'Precyzja': round(balanced_accuracy_score(y_test, y_pred), 3)},
                           ignore_index=True)
     # plik csv z wynikami
-    stats.to_csv(plik_wynikowy, mode='a', header=True, index=False, sep=';')
+    if plik_wynikowy:
+        stats.to_csv(plik_wynikowy, mode='a', header=True, index=False, sep=';')
 
     if znaczenie_cech:
         znaczenie_cech = pd.DataFrame(columns=['cecha', 'waznosc'])
@@ -196,6 +198,18 @@ def train_model(zbior_samodzielny, model_dict, rfe=False, over_samp=False,
                               index=False,
                               sep=';')
 
+# wywołanie funkcji trenującej podany klasyfikator
+# zbior_samodzielny - zbiór danych po przygotowaniu
+# wybrany model — jeden ze słowników: KNN, SVM, RF, GB
+# rfe — True/False, czy stosować rekursywną eliminację cech, tylko dla RF i GB, domyślnie False
+# over_samp - True/False, czy stosować nadpróbkowanie, domyślnie False
+# znaczenie_cech - True/False, czy generować plik ze znaczeniem cech, tylko dla RF i GB,
+# domyślnie False
+# nazwa_pliku_modelu - nazwa pliku *.joblib do zapisania wytrenowanego modelu, domyślnie False
+# plik_wynikowy - nazwa pliku *.csv do zapisu wyników modelu, domyślnie False
+
+# NALEŻY WYBRAĆ JEDEN Z MODELI
+wybrany_model = GB
 
 train_model(zbior_samodzielny, wybrany_model, over_samp=True, znaczenie_cech=True,
             plik_wynikowy='wyniki/wyniki_gb.csv', nazwa_pliku_modelu='modele/gb_over_samp.joblib')

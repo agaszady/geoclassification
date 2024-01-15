@@ -1,4 +1,5 @@
-# funkcjonalność
+# ekstraktowanie cech związanych z funkcjonalnością miejscowości
+# wynik w 28/analiza_funkcje_warminskie.csv
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import MultiPolygon, MultiPoint
@@ -59,7 +60,7 @@ tereny_uprawne_zalesione.drop('area', axis=1, inplace=True)
 dane_funkcjonalnosc = pd.merge(tereny_uprawne_zalesione, rodzaje_budynkow, how='left', on='SIMC_id')
 print(tereny_uprawne_zalesione.sort_values(by='SIMC_id').head())
 # zapis do csv
-dane_funkcjonalnosc.to_csv("28/analiza_funkcje_warminskie.csv",
-                          sep=';', header=True, index=False)
+# dane_funkcjonalnosc.to_csv("28/analiza_funkcje_warminskie.csv",
+#                           sep=';', header=True, index=False)
 
 

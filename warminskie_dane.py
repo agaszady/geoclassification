@@ -1,4 +1,6 @@
-# wielkość
+# ekstraktowanie cech związanych z wielkością miejscowości
+# wynik w 28/analiza_wielkosci_warminskie.csv
+# pomocnicza warstwa 28/warminskie_granice_miejscowosci_z_adresacja.shp
 import pandas as pd
 import geopandas as gpd
 
@@ -93,8 +95,8 @@ warminskie_prng['zageszczenie_ludnosci'] = warminskie_prng['liczba_mieszkancow']
     'powierzchnia']*100
 warminskie_prng.drop_duplicates(subset='SIMC_id', inplace=True)
 print(warminskie_prng.sort_values(by='SIMC_id').head())
-warminskie_prng.to_csv("28/analiza_wielkosci_warminskie.csv", sep=';', header=True, index=False)
 
-
+# zapis do pliku
+# warminskie_prng.to_csv("28/analiza_wielkosci_warminskie.csv", sep=';', header=True, index=False)
 # granice_miejscowosci_pomoc.to_file("28/warminskie_granice_miejscowosci_z_adresacja.shp")
 

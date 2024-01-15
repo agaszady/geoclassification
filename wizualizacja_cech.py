@@ -1,3 +1,4 @@
+# wizualizacja rozkłądu i korelacji cech w zbiorze
 import pandas as pd
 import numpy as np
 from scipy.stats import randint, norm, gamma, skew, kurtosis, mode
@@ -77,9 +78,10 @@ def wizualizacja(zbior_samodzielny):
                                               'Skośność': skewness_value,
                                               'Kurtoza': kurtosis_value},
                                              ignore_index=True)
-    # dodanie nazw kolumn do DataFrame
+    # dodanie nazw kolumn/cech
     summary_stats['Zmienna'] = zmienne_objasniajace.columns
 
     summary_stats.set_index('Zmienna', inplace=True)
+    # zapis do pliku
     # summary_stats.to_csv('stats.csv', sep=';', header=True)
     print(summary_stats)

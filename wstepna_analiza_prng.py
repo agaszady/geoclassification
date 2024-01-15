@@ -1,4 +1,4 @@
-# wstępna analiza ile jest jakich rodzajów miejscowości w prng, podział na województwa, jest też w pliku notatnikowym warminskie_dane
+# wstępna analiza ile jest jakich rodzajów miejscowości w prng, podział na województwa
 # wynik w dane_pomocnicze/woj_liczbowo.csv i dane_pomocnicze/woj_procentowo.csv
 import geopandas as gpd
 
